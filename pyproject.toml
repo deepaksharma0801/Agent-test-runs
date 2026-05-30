@@ -1,0 +1,10 @@
+[project]
+name = "local-research-agent"
+version = "0.1.0"
+description = "A beginner-friendly local-first research agent with simple multi-agent roles."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
